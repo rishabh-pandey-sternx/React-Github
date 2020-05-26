@@ -1,0 +1,114 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftPane {
+  border-right: 2px solid #bdbdbd;
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+}
+
+.rightPane {
+  height: 100%;
+}
+
+.labelContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.userInfoLine {
+  height: 1px;
+  background-color: #bdbdbd;
+}
+
+.userInfoText {
+  padding: 0;
+  font-size: 16px;
+  color: #bdbdbd;
+}
+
+.avatar {
+  height: 35vh;
+}
+
+.avatar-logo {
+  padding: 24px 0 50px 0;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.userListHeading {
+  font-size: 16px;
+  color: #bdbdbd;
+  text-align: left;
+  padding: 4px 0;
+}
+
+.userListItem {
+  cursor: pointer;
+  font-size: 16px;
+  color: #000000;
+  padding: 3px 0;
+  text-transform: capitalize;
+}
+
+.selectedUserItem {
+  font-weight: 500;
+  background-color: #ebebeb;
+}
+
+.fieldValueContainer {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #000000;
+  padding: 10px 0;
+}
+
+.field {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.value {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  font-weight: bold;
+}
+
+.userListing {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+}
+
+.loadMore {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ebebeb;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
